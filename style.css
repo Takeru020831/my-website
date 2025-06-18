@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+body{
+  margin:0 auto;
+  background-image: url(IMG_4031.jpeg);
+  color: white;
+  background-size: cover;
+}
+
+.top-wrapper {
+  text-align: center;
+  height: 150px;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-top:20px;
+  padding-bottom:0;
+  border: 5px solid white;
+  border-radius:10px;
+}
+
+.main-wrapper {
+  width: 1000px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.aboutme {
+  
+}
+
+.aboutme h2{
+  font-weight: bold;
+}
+
+.aboutmeimg {
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  float:left;
+  margin-right: 30px;
+}
+
+.aboutme li {
+  margin-top:30px;
+  font-weight: bold;
+}
+
+.aboutme p {
+  margin-bottom: 5px;
+}
+
+.contents {
+  margin-top:80px;
+}
