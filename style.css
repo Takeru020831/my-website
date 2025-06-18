@@ -1,12 +1,5 @@
 @charset "utf-8";
 
-body{
-  margin:0 auto;
-  background-image: url(IMG_4031.jpeg);
-  color: white;
-  background-size: cover;
-}
-
 header {
   color: white;
   height:50px;
@@ -21,6 +14,18 @@ header {
   line-height:50px;
   margin-left:20px;
   color:white;
+}
+
+.btn:hover {
+  opacity:0;
+  background-color:aquamarine;
+}
+
+body{
+  margin:0 auto;
+  background-image: url(IMG_4031.jpeg);
+  color: white;
+  background-size: cover;
 }
 
 .top-wrapper {
@@ -41,7 +46,9 @@ header {
   margin-right: 100px;
 }
 
-
+.aboutme {
+  
+}
 
 .aboutme h2{
   font-weight: bold;
