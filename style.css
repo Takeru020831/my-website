@@ -7,6 +7,22 @@ body{
   background-size: cover;
 }
 
+header {
+  color: white;
+  height:50px;
+  width:100%;
+  background-color:black;
+  opacity:0.6;
+  position: fixed;
+  top:0;
+}
+
+.btn {
+  line-height:50px;
+  margin-left:20px;
+  color:white;
+}
+
 .top-wrapper {
   text-align: center;
   height: 150px;
@@ -25,9 +41,7 @@ body{
   margin-right: 100px;
 }
 
-.aboutme {
-  
-}
+
 
 .aboutme h2{
   font-weight: bold;
