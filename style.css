@@ -17,8 +17,8 @@ header {
 }
 
 .btn:hover {
-  opacity:0;
-  background-color:aquamarine;
+  opacity:1;
+  background-color:gray;
 }
 
 body{
@@ -72,5 +72,18 @@ body{
 }
 
 .contents {
-  margin-top:80px;
+  margin-top:60px;
+}
+
+footer {
+  height:400px;
+  background-color:black;
+  opacity: 0.6;
+  padding-left: 100px;
+  padding-top: 50px;
+  margin-top:50px;
+}
+
+.sns {
+  margin-top: 50px;
 }

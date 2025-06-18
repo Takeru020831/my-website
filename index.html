@@ -8,22 +8,25 @@
   <title>My Advanced CSS</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <header>
-    <a class="btn" href="#">自己紹介</a>
+    <a class="btn" href="#pagetop">Page top</a>
+    <a class="btn" href="#profile">自己紹介</a>
+    <a class="btn" href="#sns">More information</a>
   </header>
-  
-  <div class="top-wrapper">
+
+  <div id="pagetop"></div>
+
+  <div class="top-wrapper" >
     <div class="container">
-      <h1>My page</h1>
+      <h1 >My page</h1>
     <p>初めまして。Takeru's pageへようこそ。</p>
     </div>
   </div>
 
   <div class="main-wrapper">
     <div class="contents">
-     <h2 id="#">1.自己紹介</h2>
+     <h2 id="profile">自己紹介</h2>
       <ul>
         <div class="contents">
           <li>名前</li>
@@ -54,8 +57,7 @@
         
         <div class="contents">
           <li>好きなこと</li>
-              <p>クライミング、夏、海で昼寝、登山、野宿、旅行、おしゃべり
-              、とにかく楽しいこと、目新しいモノ</p>
+            <p>クライミング、夏、海で昼寝、登山、野宿、旅行、おしゃべり 、とにかく楽しいこと、目新しいモノ</p>
         </div>
 
         <div class="contents">
@@ -68,10 +70,29 @@
             <p>ワクワクしないこと</p>
         </div>
 
-        
-              
+        <div class="contents">
+          <li>好きな言葉</li>
+            <p>「No peace no life」、「好きこそものの上手なれ」</p>
+        </div>
       </ul>
     </div>
   </div>
+
+  <footer>
+    <h2>More information</h2>
+    
+    <ul>
+      <div id="sns" class="sns">
+        <li>Instagram</li>
+        <a href="https://www.instagram.com/takeruclimbing0831/">https://www.instagram.com/takeruclimbing0831/</a>
+      </div>
+      
+      <div class="sns">
+        <li>E-mail</li>
+        <p>takeruz1122@gmail.com</p>
+      </div>
+    </ul>
+  </footer>
+  
 </body>
 </html>
